@@ -1,5 +1,11 @@
 # Changelog
 
+## {gh}`5.5.3 (unreleased) <compare/v5.5.2...main>`
+
+```{important}
+This version is not released yet and is under active development.
+```
+
 ## {gh}`5.5.2 (2022-07-11) <compare/v5.5.1...v5.5.2>`
 
 ## {gh}`5.5.1 (2022-07-08) <compare/v5.5.0...v5.5.1>`
