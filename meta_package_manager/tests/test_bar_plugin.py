@@ -159,7 +159,8 @@ class TestBarPlugin:
     )
     @pytest.mark.parametrize("python_bin", ("python3", "python"))
     def test_python_shells(self, shell_args, python_bin):
-        """Test Python shells are properly configured in system and all are pointing to v3."""
+        """Test Python shells are properly configured in system and all are pointing to
+        v3."""
         if "-c" in shell_args:
             args = *shell_args, f"{python_bin} --version"
         else:

@@ -30,7 +30,7 @@ from typing import ContextManager, Dict, Iterable, Iterator, Optional, Union, ca
 from unittest.mock import patch
 
 if sys.version_info >= (3, 8):
-    from functools import cached_property
+    pass
 else:
     from boltons.cacheutils import cachedproperty as cached_property
 
